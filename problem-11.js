@@ -8,7 +8,7 @@
 // console.log('This is a leaper year:', isLeaper);
 
 
-let year = [1995, 1999, 2002, 2010, 2015, 2020, 2024];
+let year = [1995, 1999, 2002, 2010, 2015, 2020, 2024,2052];
 
 for (let i = 0; i< year.length; i++){
     const element = year[i];

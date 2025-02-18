@@ -21,10 +21,10 @@
 // console.log(alignment);
 
 // ********* problem assa ai tai**********
-// const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
-// let color = [];
-// for(let i = colors.length - 1; i >= 0; i--){
-//     // console.log(colors[i]);
-//  color.push(colors)
-// }
-// console.log(color);
+const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+let color = [];
+for(let i = colors.length - 1; i >= 0; i--){
+    const element = colors[i];
+    color.push(element)
+}
+console.log(color);

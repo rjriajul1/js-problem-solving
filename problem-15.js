@@ -6,7 +6,7 @@
 
 // let  numbers = [1,2,3,3,4,4,4,5,7,8,9,10];
 
-// let bigNumber = numbers[0];
+// let bigNumber = [];
 
 // for(let i = 0; i < numbers.length; i++){
 //     const element =numbers[i];
@@ -22,12 +22,14 @@ let  numbers = [1,2,3,3,4,4,4,5,7,8,9,10];
 
 let i = 1;
 let bigNumber= [];
-while( i < numbers.length - 1){
+while( i < numbers.length - 1 ){
+    console.log(i);
    
     
     if(i > bigNumber){
         bigNumber = i;
     }
+    
     i++;
 }
 console.log(bigNumber);

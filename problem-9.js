@@ -3,10 +3,15 @@
 // Capitalize Every first Letter of each word in a String
 
 const sentence = 'Capitalize Every first Letter of each word in a String';
-
-const s2 = sentence.charAt(0).toUpperCase()  + sentence.slice(1);
-
-console.log(s2);
+let divide = sentence.split(' ');
+ let string = '';
+for(const char of divide){
+        let element = (char.charAt(0).toUpperCase()+ char.slice(1));
+        console.log(element);
+        string = string + element + ' ' ;
+}
+console.log(string);
+ 
 
 
 

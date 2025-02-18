@@ -12,9 +12,6 @@ for(let i = rev.length - 1; i >= 0; i--){
 
     out = out + element + " ";
     
-    
-    
-    
 }
 console.log(out);
 

@@ -13,7 +13,7 @@ function oddEven(numbers){
     }
  }
 
-const num =5;
+const num =6;
 const result = oddEven(num);
 console.log(result);
 

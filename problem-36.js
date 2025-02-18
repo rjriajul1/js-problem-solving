@@ -1,6 +1,6 @@
 // problem
 
-// akta mobile price thake sobthe kom taka ar mobile ta khanta hobe min bar korta hobe ?
+// akta mobile price thake sobthaka kom taka ar mobile ta khanta hobe min bar korta hobe ?
 
 // function phonePriceMin(price){
 //     let min = price[0];

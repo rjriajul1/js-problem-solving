@@ -15,13 +15,20 @@
 // console.log(result.trim());
 
 
-var numbers =['Tom', 'Tim', 'Tin', 'Tik'];
+var words =['Tom', 'Tim', 'Tin', 'Tik'];
 let result ='';
-for( let i =0; i < numbers.length; i++){
-   const element = numbers.concat()[i];
+for( let i =0; i < words.length; i++){
+   
+   const currentWord = words[i]
+   if(i == words.length - 1){
+      result = result +  currentWord  ;
 
-   result += element;
-
-
+   }else{
+      result = result +  currentWord + ' ' ;
+   }
+   
+  
+  
+   
 }
 console.log(result);

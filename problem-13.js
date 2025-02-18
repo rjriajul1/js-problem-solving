@@ -2,7 +2,7 @@
 
 // var friends =['rahim', "karim", "abdul", "sadud", "heroAlom"]
 
-// hoporar thaka fasta bondur moda kar name ta boro kuja bar korta hobe ?
+// hoporar thaka bondur moda kar name ta boro khuja bar korta hobe ?
 
 // const friends = ['rahim', 'karim', 'abdul', 'sadul', 'heroAlom'];
 // let bigName=friends[0];

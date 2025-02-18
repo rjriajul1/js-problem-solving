@@ -11,7 +11,7 @@
 //     }
 // }
 
-// const lipiYear= 2043;
+// const lipiYear= 2052;
 // const result = isLeapYear(lipiYear);
 // console.log(result);
 
@@ -26,5 +26,5 @@ function isLeapYear2(year){
     }
 }                     
 
-const result = isLeapYear2(2024);
+const result = isLeapYear2(2052);
 console.log(result);

@@ -18,3 +18,13 @@ for( let i = word.length - 1; i >= 0; i --){
         
 }
 console.log(out);
+
+
+// let sentence = 'Lightweight and durable backpack';
+
+// let rev = '';
+// for(const char of sentence){
+//     console.log(char);
+//   rev = char + rev;
+// }
+// console.log(rev);

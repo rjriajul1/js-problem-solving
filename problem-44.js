@@ -3,6 +3,7 @@
 
 
 function findAveragePhonePrice(phones){
+ 
    let sum = 0;
    let count = phones.length;
    for(const phone of phones){

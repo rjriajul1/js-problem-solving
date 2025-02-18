@@ -2,19 +2,19 @@
 
 // Count how many times a string has the letter a
 
-// const sentence = 'Count how many times a string has the letter ';
+const sentence = 'Count how many times  a string has the letter ';
 
-// let count = 0;
+let count = 0;
 
-// for(let char of sentence){
-//     // console.log(char);
+for(let char of sentence){
+    // console.log(char);
     
-//     if(char === 'a'){
-//         count++;
+    if(char === 'a' || char === 'A'){
+        count++;
        
-//     }
-// }
-// console.log(count);
+    }
+}
+console.log(count);
 
 // const sentence = 'Count how many times a string has the letter ';
 
